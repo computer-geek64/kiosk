@@ -10,5 +10,6 @@ if [[ $(cat "${file}") == '0' ]]; then
   echo '1' > "${file}"
   xset dpms force off
   i3lock -n --screen 1 --blur 3 --clock
+  xset s off -dpms
   echo '0' > "${file}"
 fi
