@@ -1,7 +1,7 @@
 #!/bin/bash
 # i3lock_sleep.sh
 
-file='/home/ashish/tmp/.i3lock'
+file='/home/ashish/.i3lock'
 if [ ! -f "${file}" ]; then
   echo '0' > "${file}"
 fi
